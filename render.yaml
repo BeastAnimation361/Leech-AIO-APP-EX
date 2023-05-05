@@ -1,5 +1,6 @@
 services:
   - name: leech-aio-app-ex
+    type: web
     github:
       branch: main
       repo: wy580477/Leech-AIO-APP-EX
