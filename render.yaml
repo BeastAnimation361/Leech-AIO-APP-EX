@@ -1,3 +1,6 @@
-build:
-  docker:
-    web: Dockerfile
+  # A Docker web service
+  - type: Dockerfile
+    name: Luna
+    env: docker
+    region: Singapore
+    plan: free
