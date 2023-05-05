@@ -1,6 +1,7 @@
-  # A Docker web service
-  - type: Dockerfile
-    name: Luna
-    env: docker
-    region: Singapore
-    plan: free
+services:
+  - name: leech-aio-app-ex
+    github:
+      branch: main
+      repo: wy580477/Leech-AIO-APP-EX
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
